@@ -3,11 +3,9 @@
 </template>
 
 <script>
-/* eslint-disable */
-// eslint-disable-next-line
 export default {
   props: {
-    text: String
+    text: String,
   },
   computed: {
     style() {
@@ -20,10 +18,10 @@ export default {
         border: `${css.borderWidth}px solid ${css.borderColor}`,
         fontWeight: css.fontWeight,
         color: css.color,
-        backgroundColor: css.backgroundColor
+        backgroundColor: css.backgroundColor,
       };
-    }
-  }
+    },
+  },
 };
 </script>
 
